@@ -4,8 +4,8 @@ import os
 from email.header import decode_header
 
 # ========= CONFIGURA ==========
-EMAIL = "sf.contasdeconsumo@barueri.sp.gov.br"
-SENHA = "Contab.23@"
+EMAIL = "seu e-mail"
+SENHA = "sua senha"
 IMAP_SERVER = "mail.barueri.sp.gov.br"
 
 REMETENTE_ENEL = "brasil.enel.com"
@@ -66,4 +66,5 @@ for num in mensagens[0].split():
 
 mail.logout()
 print("🏁 Finalizado.")
+
 
